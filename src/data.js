@@ -1,30 +1,30 @@
 const products = [
   {
     id: '1',
-    name: 'white ring',
+    name: 'White Ring',
     image: '../../img/white-ring-6872.jpg',
   },
   {
     id: '2',
-    name: 'white pearl',
+    name: 'White Pearl',
     image:
       '../../../img/white-ring-6872.jpg',
   },
   {
     id: '3',
-    name: 'orange ring',
+    name: 'Orange Ring',
     image:
       '../../../img/orange-ring-6870.jpg',
   },
   {
     id: '4',
-    name: 'teal ring',
+    name: 'Teal Ring',
     image:
       '../../../img/teal-ring-6871.jpg',
   },
   {
     id: '5',
-    name: 'knock on wood',
+    name: 'Knock on Wood',
     image:
       '../../../img/knock-on-wood-6869.jpg',
   },
