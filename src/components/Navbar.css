@@ -1,0 +1,34 @@
+.navbar {
+    margin: 0 auto;
+    padding: 2rem 5rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+.navbar-link {
+    text-decoration: none;
+    color: var(--primary-500);
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.navbar-link::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-500);
+
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-in-out;
+}
+
+.navbar-link:hover::after {
+    transform: scaleX(1);
+}
