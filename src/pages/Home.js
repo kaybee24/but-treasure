@@ -10,7 +10,6 @@ const Home = () => {
         <p>Picking up litter when we do beach walks on the beaches around Cape Town, South Africa.
           No trash, but treasure.  </p>
         <div className="grid grid-4">
-
           <div>
             <h4>White Ring</h4>
             <img className="product-img" src="../../img/white-ring-6872.jpg" alt="bracelet white ring" />
