@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import SingleProduct from './pages/SingleProduct';
-import Error from './pages/Error';
-import SharedLayout from './pages/SharedLayout';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
+import Products from './pages/Products.js';
+import SingleProduct from './pages/SingleProduct.js';
+import Error from './pages/Error.js';
+import SharedLayout from './pages/SharedLayout.js';
 
 function App() {
   return (
